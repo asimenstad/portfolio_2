@@ -16,3 +16,9 @@ export const Nav = styled.nav`
     flex-direction: row;
   }
 `;
+
+export const HamburgerWrapper = styled.div`
+  @media screen and (min-width: 600px) {
+    display: none;
+  }
+`;
