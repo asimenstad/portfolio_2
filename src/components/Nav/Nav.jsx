@@ -1,8 +1,10 @@
+import * as S from "./Nav.styles";
+
 function Nav() {
   return (
-    <header>
-      <nav>nav</nav>
-    </header>
+    <S.Header>
+      <S.Nav></S.Nav>
+    </S.Header>
   );
 }
 
