@@ -11,7 +11,17 @@ function Nav() {
         <S.HamburgerWrapper>
           <Hamburger className="hamburger" toggled={isOpen} toggle={setOpen} size={20} />
         </S.HamburgerWrapper>
-        <S.NavLinks isOpen={isOpen}></S.NavLinks>
+        <S.NavLinks isOpen={isOpen}>
+          <li>
+            <S.NavLink>Om meg</S.NavLink>
+          </li>
+          <li>
+            <S.NavLink>Prosjekter</S.NavLink>
+          </li>
+          <li>
+            <S.NavLink>Kontakt</S.NavLink>
+          </li>
+        </S.NavLinks>
       </S.Nav>
     </S.Header>
   );

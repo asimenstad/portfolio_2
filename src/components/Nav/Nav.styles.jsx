@@ -3,15 +3,16 @@ import styled from "styled-components";
 export const Header = styled.header`
   display: flex;
   justify-content: center;
-  padding: 1rem;
+  padding: 1rem 2rem;
 `;
 
 export const Nav = styled.nav`
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 1200px;
+  max-width: 800px;
   gap: 2rem;
+  position: relative;
   @media screen and (min-width: 600px) {
     flex-direction: row;
   }
@@ -40,8 +41,8 @@ export const NavLinks = styled.ul`
 `;
 
 export const NavLink = styled.a`
-  background: linear-gradient(currentColor, currentColor) left bottom / 0 2px no-repeat;
-  padding-bottom: 0.1rem;
+  background: linear-gradient(currentColor, currentColor) left bottom / 0 0.1rem no-repeat;
+  padding-bottom: 0.2rem;
   transition: 0.5s background-size;
   :hover {
     background-size: 100% 0.1rem;

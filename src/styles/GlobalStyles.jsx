@@ -17,6 +17,12 @@ body{
 h1, h2,h3{
     font-family: var(--font-primary);
 }
+li{
+    list-style: none;
+}
+a{
+    cursor: pointer;
+}
 `;
 
 export default GlobalStyle;
