@@ -29,6 +29,7 @@ export const NavLinks = styled.ul`
   flex-direction: column;
   gap: 2rem;
   text-align: center;
+  display: ${(props) => (props.isOpen ? "flex" : "none")};
   @media screen and (min-width: 600px) {
     flex-direction: row;
     display: flex;
@@ -36,7 +37,6 @@ export const NavLinks = styled.ul`
     align-items: center;
     width: 100%;
   }
-  display: ${(props) => (props.isOpen ? "flex" : "none")};
 `;
 
 export const NavLink = styled.a`
