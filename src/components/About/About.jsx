@@ -16,10 +16,11 @@ function About() {
             <li>CSS</li>
             <li>JavaScript</li>
             <li>React</li>
-            <li>Rest API</li>
             <li>Tailwind CSS</li>
             <li>Material UI</li>
-            <li>Styled Components</li>
+            <li>Styled-components</li>
+            <li>Unit testing</li>
+            <li>End-to-end testing</li>
             <li>Figma</li>
           </S.List>
         </div>

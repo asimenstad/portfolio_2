@@ -36,6 +36,7 @@ li{
 a{
     cursor: pointer;
     color: var(--color-black);
+    text-decoration: none;
 }
 
 header, main {
@@ -56,8 +57,7 @@ nav, section{
 }
 
 section{
-   margin-bottom: 10rem;
-
+   margin-bottom: 15rem;
 }
 
 .section-header{
@@ -65,14 +65,17 @@ section{
   align-items: center;
   gap: 20px;
   white-space: nowrap;
+  width: 100%;
 }
 
-.section-header::after{
+.section-header::after, section:nth-child(even) .section-header::before {
   content: "";
   width: 100%;
   display: inline-block;
   border-bottom: 0.1rem solid #000;
 }
+
+
 
 
 
