@@ -5,6 +5,7 @@ const theme = {
     black: "var(--color-black)",
     white: "var(--color-white)",
     primary: "var(--color-primary)",
+    muted: "var(--color-muted)",
   },
   font: {
     primary: "var(--font-primary)",

@@ -1,8 +1,12 @@
+import About from "../About/About.jsx";
+import Intro from "../Intro/Intro.jsx";
+
 function Main() {
   return (
-    <>
-      <h1>Hei</h1>
-    </>
+    <main>
+      <Intro />
+      <About />
+    </main>
   );
 }
 

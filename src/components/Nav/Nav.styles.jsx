@@ -1,16 +1,9 @@
 import styled from "styled-components";
 
-export const Header = styled.header`
-  display: flex;
-  justify-content: center;
-  padding: 1rem 2rem;
-`;
-
 export const Nav = styled.nav`
   display: flex;
   flex-direction: column;
   width: 100%;
-  max-width: 800px;
   gap: 2rem;
   position: relative;
   @media screen and (min-width: 600px) {

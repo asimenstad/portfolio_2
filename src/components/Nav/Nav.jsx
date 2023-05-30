@@ -6,7 +6,7 @@ function Nav() {
   const [isOpen, setOpen] = useState(false);
 
   return (
-    <S.Header>
+    <header>
       <S.Nav>
         <S.HamburgerWrapper>
           <Hamburger className="hamburger" toggled={isOpen} toggle={setOpen} size={20} />
@@ -23,7 +23,7 @@ function Nav() {
           </li>
         </S.NavLinks>
       </S.Nav>
-    </S.Header>
+    </header>
   );
 }
 
