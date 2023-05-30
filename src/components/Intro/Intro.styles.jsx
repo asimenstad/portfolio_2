@@ -18,5 +18,9 @@ export const Links = styled.div`
   gap: 1rem;
   & a {
     color: var(--color-black);
+    transition: ease-in-out 0.3s;
+    &:hover {
+      color: var(--color-cta);
+    }
   }
 `;
