@@ -74,8 +74,9 @@ section{
   border-bottom: 0.1rem solid #000;
 }
 
-
-
+.bold{
+    font-weight: 500;
+}
 
 
 `;

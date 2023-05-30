@@ -12,6 +12,9 @@ export const Card = styled.div`
   flex-direction: column-reverse;
   margin-bottom: 6rem;
   gap: 2rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
   @media screen and (min-width: 700px) {
     flex-direction: row-reverse;
     &:nth-child(odd) {

@@ -19,6 +19,9 @@ function Nav() {
             <S.NavLink>Prosjekter</S.NavLink>
           </li>
           <li>
+            <S.NavLink>CV</S.NavLink>
+          </li>
+          <li>
             <S.NavLink>Kontakt</S.NavLink>
           </li>
         </S.NavLinks>
