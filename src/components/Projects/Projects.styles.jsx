@@ -12,7 +12,7 @@ export const Card = styled.div`
   flex-direction: column-reverse;
   margin-bottom: 6rem;
   gap: 2rem;
-  @media screen and (min-width: 650px) {
+  @media screen and (min-width: 700px) {
     flex-direction: row-reverse;
     &:nth-child(odd) {
       flex-direction: row;
@@ -34,6 +34,7 @@ export const CardInfo = styled.div`
   flex-direction: column;
   justify-content: space-between;
   gap: 1rem;
+  padding-block: 1rem;
 `;
 
 export const List = styled.ul`
@@ -44,10 +45,33 @@ export const List = styled.ul`
 `;
 
 export const Button = styled.a`
-  text-transform: uppercase;
-  text-align: center;
-  border: 0.1rem solid #000;
-  border-radius: 0.1rem;
-  padding: 0.2rem 1rem;
-  max-width: 5rem;
+  display: flex;
+  max-width: 3.3rem;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    background: var(--color-cta);
+    transition: all 0.7s cubic-bezier(0.6, -0.55, 0.25, 1.55);
+    z-index: -1;
+  }
+  & .button-text {
+    position: relative;
+    text-transform: uppercase;
+    color: #fff;
+    mix-blend-mode: difference;
+    z-index: 1;
+  }
+  &:hover {
+    &::before {
+      width: 100%;
+    }
+  }
 `;

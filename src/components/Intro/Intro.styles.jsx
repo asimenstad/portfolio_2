@@ -16,4 +16,7 @@ export const Links = styled.div`
   align-items: center;
   justify-content: center;
   gap: 1rem;
+  & a {
+    color: var(--color-black);
+  }
 `;

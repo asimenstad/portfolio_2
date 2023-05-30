@@ -4,7 +4,7 @@ const theme = {
   color: {
     black: "var(--color-black)",
     white: "var(--color-white)",
-    primary: "var(--color-primary)",
+    cta: "var(--color-cta)",
     muted: "var(--color-muted)",
   },
   font: {

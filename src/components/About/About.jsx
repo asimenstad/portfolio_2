@@ -16,12 +16,14 @@ function About() {
             <li>CSS</li>
             <li>JavaScript</li>
             <li>React</li>
+            <li>API</li>
             <li>Tailwind CSS</li>
             <li>Material UI</li>
             <li>Styled-components</li>
             <li>Unit testing</li>
             <li>End-to-end testing</li>
             <li>Figma</li>
+            <li>Adobe XD</li>
           </S.List>
         </div>
       </S.Text>

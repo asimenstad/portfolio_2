@@ -15,7 +15,9 @@ function Projects() {
                 <li key={tool}>{tool}</li>
               ))}
             </S.List>
-            <S.Button href={linkGithub}>Github</S.Button>
+            <S.Button href={linkGithub}>
+              <span className="button-text">Github</span>
+            </S.Button>
           </S.CardInfo>
           <a href={linkLiveSite}>
             <S.CardImg src={image} />

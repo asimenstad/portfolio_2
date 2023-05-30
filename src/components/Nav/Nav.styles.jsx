@@ -22,13 +22,13 @@ export const NavLinks = styled.ul`
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding: 1rem;
   text-align: center;
   display: ${(props) => (props.isOpen ? "flex" : "none")};
   @media screen and (min-width: 600px) {
     flex-direction: row;
     display: flex;
     justify-content: end;
-    align-items: center;
     width: 100%;
   }
 `;

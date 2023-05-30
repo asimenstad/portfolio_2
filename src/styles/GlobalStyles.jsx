@@ -35,7 +35,6 @@ li{
 
 a{
     cursor: pointer;
-    color: var(--color-black);
     text-decoration: none;
 }
 
@@ -43,7 +42,7 @@ header, main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 2rem;
 }
 
 main{
