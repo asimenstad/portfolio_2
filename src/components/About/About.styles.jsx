@@ -4,8 +4,8 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
-  @media screen and (min-width: 650px) {
+  gap: 3rem;
+  @media screen and (min-width: 700px) {
     flex-direction: row;
   }
 `;
