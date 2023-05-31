@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useRef, useState } from "react";
 import * as S from "./Nav.styles";
 import { Spiral as Hamburger } from "hamburger-react";
 
@@ -16,13 +16,13 @@ function Nav() {
             <S.NavLink>Om meg</S.NavLink>
           </li>
           <li>
-            <S.NavLink name="projects">Prosjekter</S.NavLink>
+            <S.NavLink>Prosjekter</S.NavLink>
           </li>
           <li>
-            <S.NavLink name="cv">CV</S.NavLink>
+            <S.NavLink>CV</S.NavLink>
           </li>
           <li>
-            <S.NavLink name="contact">Kontakt</S.NavLink>
+            <S.NavLink>Kontakt</S.NavLink>
           </li>
         </S.NavLinks>
       </S.Nav>
