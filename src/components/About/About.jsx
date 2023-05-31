@@ -2,7 +2,7 @@ import * as S from "./About.styles.jsx";
 
 function About() {
   return (
-    <S.Section>
+    <S.Section id="about">
       <S.Text>
         <h2 className="section-header">Om Meg</h2>
         <p>

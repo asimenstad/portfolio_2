@@ -2,7 +2,7 @@ import * as S from "./Contact.styles.jsx";
 
 function Contact() {
   return (
-    <S.Section>
+    <S.Section id="contact">
       <h2 className="section-header">Kontakt</h2>
       <p>
         <span className="bold">Epost</span>

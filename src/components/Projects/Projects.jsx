@@ -3,7 +3,7 @@ import { projects } from "/src/assets/projects/projects.jsx";
 
 function Projects() {
   return (
-    <S.Section>
+    <S.Section id="projects">
       <h2 className="section-header">Prosjekter</h2>
       {projects.map(({ title, description, builtWith, linkGithub, linkLiveSite, image }) => (
         <S.Card key={title}>

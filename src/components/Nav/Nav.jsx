@@ -16,13 +16,13 @@ function Nav() {
             <S.NavLink>Om meg</S.NavLink>
           </li>
           <li>
-            <S.NavLink>Prosjekter</S.NavLink>
+            <S.NavLink name="projects">Prosjekter</S.NavLink>
           </li>
           <li>
-            <S.NavLink>CV</S.NavLink>
+            <S.NavLink name="cv">CV</S.NavLink>
           </li>
           <li>
-            <S.NavLink>Kontakt</S.NavLink>
+            <S.NavLink name="contact">Kontakt</S.NavLink>
           </li>
         </S.NavLinks>
       </S.Nav>

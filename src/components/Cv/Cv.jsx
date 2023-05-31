@@ -2,7 +2,7 @@ import * as S from "./Cv.styles.jsx";
 
 function Cv() {
   return (
-    <S.Section>
+    <S.Section id="cv">
       <h2 className="section-header">CV</h2>
       <S.Div>
         <S.CvHeader>Utdanning</S.CvHeader>

@@ -57,6 +57,7 @@ nav, section{
 
 section{
    margin-bottom: 20rem;
+   margin-top: 1rem;
 }
 
 .section-header{
