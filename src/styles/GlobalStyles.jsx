@@ -56,7 +56,7 @@ nav, section{
 }
 
 section{
-   margin-bottom: 15rem;
+   margin-bottom: 20rem;
 }
 
 .section-header{
@@ -78,6 +78,10 @@ section{
     font-weight: 500;
 }
 
+.caption{
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
 
 `;
 
