@@ -1,4 +1,3 @@
-import Footer from "../Footer/Footer";
 import Main from "../Main/Main";
 import Nav from "../Nav/Nav";
 
@@ -7,7 +6,6 @@ function Layout() {
     <>
       <Nav />
       <Main />
-      <Footer />
     </>
   );
 }
