@@ -28,7 +28,7 @@ function About() {
         </div>
       </S.Text>
       <S.ImgContainer>
-        <S.Img src="/public/profil.jpeg" alt="Anna" />
+        <S.Img src="/images/profil.jpeg" alt="Anna" />
       </S.ImgContainer>
     </S.Section>
   );
