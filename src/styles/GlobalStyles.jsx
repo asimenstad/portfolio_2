@@ -57,7 +57,7 @@ nav, section{
 
 section{
    margin-bottom: 20rem;
-   margin-top: 1rem;
+   padding-top: 1rem;
 }
 
 .section-header{
@@ -82,6 +82,17 @@ section{
 .caption{
     text-transform: uppercase;
     font-size: 0.8rem;
+}
+
+.nav-link{
+    color: var(--color-black);
+    background: linear-gradient(currentColor, currentColor) left bottom / 0 0.1rem no-repeat;
+    padding-bottom: 0.2rem;
+    transition: 0.5s background-size;
+}
+
+.nav-link:hover{
+    background-size: 100% 0.1rem;
 }
 
 `;

@@ -1,6 +1,7 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import * as S from "./Nav.styles";
 import { Spiral as Hamburger } from "hamburger-react";
+import { NavHashLink } from "react-router-hash-link";
 
 function Nav() {
   const [isOpen, setOpen] = useState(false);
@@ -13,16 +14,24 @@ function Nav() {
         </S.HamburgerWrapper>
         <S.NavLinks isOpen={isOpen}>
           <li>
-            <S.NavLink>Om meg</S.NavLink>
+            <NavHashLink smooth to="#about" className="nav-link">
+              Om meg
+            </NavHashLink>
           </li>
           <li>
-            <S.NavLink>Prosjekter</S.NavLink>
+            <NavHashLink smooth to="#projects" className="nav-link">
+              Prosjekter
+            </NavHashLink>
           </li>
           <li>
-            <S.NavLink>CV</S.NavLink>
+            <NavHashLink smooth to="#cv" className="nav-link">
+              CV
+            </NavHashLink>
           </li>
           <li>
-            <S.NavLink>Kontakt</S.NavLink>
+            <NavHashLink smooth to="#contact" className="nav-link">
+              Kontakt
+            </NavHashLink>
           </li>
         </S.NavLinks>
       </S.Nav>
