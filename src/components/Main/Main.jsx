@@ -1,5 +1,5 @@
 import About from "../About/About.jsx";
-import Cv from "../CV/CV.jsx";
+import Cv from "../Cv/Cv.jsx";
 import Contact from "../Contact/Contact.jsx";
 import Intro from "../Intro/Intro.jsx";
 import Projects from "../Projects/Projects.jsx";
