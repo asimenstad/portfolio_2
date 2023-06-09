@@ -42,17 +42,16 @@ header, main {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
 }
 
 main{
     flex-direction: column;
-    padding-block: 5rem;
+    padding: 5rem 2rem;
+   
 }
 
 nav, section{
    max-width: 800px;
-
 }
 
 section{

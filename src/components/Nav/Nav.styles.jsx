@@ -8,12 +8,19 @@ export const Nav = styled.nav`
   position: relative;
   @media screen and (min-width: 600px) {
     flex-direction: row;
+    padding: 2rem;
   }
 `;
 
 export const HamburgerWrapper = styled.div`
-  align-self: flex-end;
   position: relative;
+  display: flex;
+  justify-content: end;
+  max-width: 100%;
+  padding: 2rem;
+  padding-bottom: 0;
+  z-index: 2;
+  background-color: var(--color-white);
   @media screen and (min-width: 600px) {
     display: none;
   }
@@ -27,12 +34,14 @@ export const NavLinks = styled.ul`
   left: -1rem;
   width: 100%;
   gap: 2rem;
-  padding: 1rem;
+  padding: 4rem 1rem;
   text-align: center;
   background-color: var(--color-white);
-  transform: ${(props) => (props.isOpen ? "translateX(0)" : "translateX(120%)")};
+  transform: ${(props) => (props.isOpen ? "translateY(0)" : "translateY(-120%)")};
   transition: all 0.5s;
+  z-index: 1;
   @media screen and (min-width: 600px) {
+    padding: 1rem;
     transform: translateX(0);
     position: static;
     flex-direction: row;
