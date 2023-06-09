@@ -13,6 +13,7 @@ export const Nav = styled.nav`
 
 export const HamburgerWrapper = styled.div`
   align-self: flex-end;
+  position: relative;
   @media screen and (min-width: 600px) {
     display: none;
   }
@@ -21,11 +22,19 @@ export const HamburgerWrapper = styled.div`
 export const NavLinks = styled.ul`
   display: flex;
   flex-direction: column;
+  position: absolute;
+  top: 4rem;
+  left: -1rem;
+  width: 100%;
   gap: 2rem;
   padding: 1rem;
   text-align: center;
-  display: ${(props) => (props.isOpen ? "flex" : "none")};
+  background-color: var(--color-white);
+  transform: ${(props) => (props.isOpen ? "translateX(0)" : "translateX(120%)")};
+  transition: all 0.5s;
   @media screen and (min-width: 600px) {
+    transform: translateX(0);
+    position: static;
     flex-direction: row;
     display: flex;
     justify-content: end;
