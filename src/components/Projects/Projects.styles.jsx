@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { ExternalLink } from "@styled-icons/feather";
 
 export const Section = styled.section`
   display: flex;
@@ -23,6 +24,21 @@ export const Card = styled.div`
   }
 `;
 
+export const Link = styled.a`
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    .card-img {
+      opacity: 0.5;
+    }
+    .card-img-icon {
+      opacity: 1;
+    }
+  }
+`;
+
 export const CardImg = styled.img`
   width: 100%;
   max-width: 30rem;
@@ -30,6 +46,15 @@ export const CardImg = styled.img`
   object-fit: cover;
   object-position: center;
   border-radius: 0.1rem;
+  transition: ease-in-out 0.3s;
+`;
+
+export const LinkIcon = styled(ExternalLink)`
+  position: absolute;
+  color: #000;
+  z-index: 2;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
 `;
 
 export const CardInfo = styled.div`

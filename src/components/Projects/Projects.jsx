@@ -19,9 +19,10 @@ function Projects() {
               <span className="button-text">Github</span>
             </S.Button>
           </S.CardInfo>
-          <a href={linkLiveSite}>
-            <S.CardImg src={image} />
-          </a>
+          <S.Link href={linkLiveSite}>
+            <S.CardImg className="card-img" src={image} />
+            <S.LinkIcon className="card-img-icon" size={32} title="Link" />
+          </S.Link>
         </S.Card>
       ))}
     </S.Section>
