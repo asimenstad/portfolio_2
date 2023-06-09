@@ -25,6 +25,8 @@ export const ListItem = styled.li`
   list-style: revert;
   color: var(--color-cta);
   margin-bottom: 1rem;
+  margin-left: 1rem;
+
   & p {
     color: var(--color-black);
     margin-left: 1rem;
