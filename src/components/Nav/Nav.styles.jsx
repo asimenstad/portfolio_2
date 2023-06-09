@@ -31,10 +31,9 @@ export const NavLinks = styled.ul`
   flex-direction: column;
   position: absolute;
   top: 4rem;
-  left: -1rem;
   width: 100%;
   gap: 2rem;
-  padding: 4rem 1rem;
+  padding-block: 4rem;
   text-align: center;
   background-color: var(--color-white);
   transform: ${(props) => (props.isOpen ? "translateY(0)" : "translateY(-120%)")};
