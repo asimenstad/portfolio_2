@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Holidaze",
     description:
-      "Holidaze er en side for å bestille overnattingssteder. Du kan opprette bruker som kunde for å bestille overnattinger og se informasjon om kommende overnattinger. Det er også mulig å opprette bruker som utleier og leie ut overnattingssteder.",
+      "Holidaze er en side for å bestille overnattingssteder. Du kan opprette bruker som kunde for å bestille overnattinger og se informasjon om dine kommende overnattinger. Det er også mulig å opprette bruker som utleier og leie ut overnattingssteder.",
     builtWith: ["React", "Material UI", "Formik", "React-date-range", "API"],
     linkGithub: "https://github.com/asimenstad/project-exam-2",
     linkLiveSite: "https://dazzling-stardust-7c87a0.netlify.app/",
