@@ -6,6 +6,7 @@ export const Section = styled.section`
   flex-direction: column;
   align-items: center;
   gap: 3rem;
+  width: 100%;
 `;
 
 export const Card = styled.div`
@@ -16,7 +17,7 @@ export const Card = styled.div`
   &:last-child {
     margin-bottom: 0;
   }
-  @media screen and (min-width: 700px) {
+  @media screen and (min-width: 850px) {
     flex-direction: row-reverse;
     &:nth-child(odd) {
       flex-direction: row;
@@ -42,7 +43,7 @@ export const Link = styled.a`
 export const CardImg = styled.img`
   width: 100%;
   max-width: 30rem;
-  aspect-ratio: 16/9;
+  aspect-ratio: 3/2;
   object-fit: cover;
   object-position: center;
   border-radius: 0.1rem;
@@ -63,6 +64,7 @@ export const CardInfo = styled.div`
   justify-content: space-between;
   gap: 1rem;
   padding-block: 1rem;
+  max-width: 30rem;
 `;
 
 export const List = styled.ul`

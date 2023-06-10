@@ -6,8 +6,9 @@ function About() {
       <S.Text>
         <h2 className="section-header">Om Meg</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sunt tempore. Ullam, ea ratione mollitia
-          illo sunt porro aliquid nobis iusto cum, nam consequuntur eius facilis ut cupiditate non fugiat?
+          Jeg er en nysgjerrig og løsningsorientert utvikler med et ønske om å skape gode digitale opplevelser gjennom
+          design og kode. Jeg har stor interesse for designprinsipper og bryr meg om de små detaljene. Jeg er også svært
+          opptatt av funksjonalitet og å lage responsive webapplikasjoner som er tilgjengelige for alle.
         </p>
         <div>
           <h3>Nøkkelkvalifikasjoner</h3>
