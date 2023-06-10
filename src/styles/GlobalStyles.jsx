@@ -51,7 +51,7 @@ main{
 }
 
 nav, section{
-   max-width: 800px;
+   max-width: 900px;
 }
 
 section{
