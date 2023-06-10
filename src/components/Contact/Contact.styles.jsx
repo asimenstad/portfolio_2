@@ -11,5 +11,6 @@ export const Section = styled.section`
   & p {
     display: flex;
     gap: 1rem;
+    align-items: center;
   }
 `;
