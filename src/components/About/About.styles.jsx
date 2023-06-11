@@ -29,4 +29,7 @@ export const ImgContainer = styled.div`
 export const Img = styled.img`
   width: 100%;
   border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  object-position: center;
 `;
