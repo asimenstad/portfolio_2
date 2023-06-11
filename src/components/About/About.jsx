@@ -6,9 +6,9 @@ function About() {
       <S.Text>
         <h2 className="section-header">Om Meg</h2>
         <p>
-          Jeg er en nysgjerrig og løsningsorientert utvikler med et ønske om å skape gode digitale opplevelser gjennom
-          design og kode. Jeg har stor interesse for designprinsipper og bryr meg om de små detaljene. Jeg er også svært
-          opptatt av funksjonalitet og å lage responsive webapplikasjoner som er tilgjengelige for alle.
+          Jeg liker å lage solide og helhetlige digitale opplevelser gjennom design og kode. Jeg har et øye for det
+          visuelle og bryr meg om de små detaljene. Jeg streber alltid etter å levere funksjonelle og responsive
+          webapplikasjoner av høyest kvalitet.
         </p>
         <div>
           <h3>Nøkkelkvalifikasjoner</h3>
