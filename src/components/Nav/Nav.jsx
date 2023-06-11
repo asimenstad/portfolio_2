@@ -6,6 +6,10 @@ import { NavHashLink } from "react-router-hash-link";
 function Nav() {
   const [isOpen, setOpen] = useState(false);
 
+  const handleClick = () => {
+    setOpen(false);
+  };
+
   return (
     <header>
       <S.Nav>
@@ -14,22 +18,22 @@ function Nav() {
         </S.HamburgerWrapper>
         <S.NavLinks isOpen={isOpen}>
           <li>
-            <NavHashLink smooth to="#about" className="nav-link">
+            <NavHashLink smooth to="#about" onClick={handleClick} className="nav-link">
               Om meg
             </NavHashLink>
           </li>
           <li>
-            <NavHashLink smooth to="#projects" className="nav-link">
+            <NavHashLink smooth to="#projects" onClick={handleClick} className="nav-link">
               Prosjekter
             </NavHashLink>
           </li>
           <li>
-            <NavHashLink smooth to="#cv" className="nav-link">
+            <NavHashLink smooth to="#cv" onClick={handleClick} className="nav-link">
               CV
             </NavHashLink>
           </li>
           <li>
-            <NavHashLink smooth to="#contact" className="nav-link">
+            <NavHashLink smooth to="#contact" onClick={handleClick} className="nav-link">
               Kontakt
             </NavHashLink>
           </li>
