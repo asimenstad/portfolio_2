@@ -8,7 +8,7 @@ function About() {
         <p>
           Jeg liker å lage solide og helhetlige digitale opplevelser gjennom design og kode. Jeg har et øye for det
           visuelle og bryr meg om de små detaljene. Jeg streber alltid etter å levere funksjonelle og responsive
-          webapplikasjoner av høyest kvalitet.
+          webapplikasjoner av høyeste kvalitet.
         </p>
         <div>
           <h3>Nøkkelkvalifikasjoner</h3>

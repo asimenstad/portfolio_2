@@ -1,5 +1,5 @@
 import * as S from "./Intro.styles.jsx";
-import { Github, Linkedin } from "@styled-icons/feather";
+import { Github } from "@styled-icons/feather";
 
 function Intro() {
   return (
@@ -13,9 +13,6 @@ function Intro() {
         <S.Links>
           <a href="https://github.com/asimenstad">
             <Github size={35} />
-          </a>
-          <a href="https://www.linkedin.com/in/anna-simenstad-9875a421a/">
-            <Linkedin size={35} />
           </a>
         </S.Links>
       </S.Section>
