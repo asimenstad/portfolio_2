@@ -4,7 +4,7 @@ function About() {
   return (
     <S.Section id="about">
       <S.Text>
-        <h2 className="section-header">Om Meg</h2>
+        <h2 className="section-header">Om meg</h2>
         <p>
           Jeg liker å lage solide og helhetlige digitale opplevelser gjennom design og kode. Jeg har et øye for det
           visuelle og bryr meg om de små detaljene. Jeg streber alltid etter å levere funksjonelle og responsive

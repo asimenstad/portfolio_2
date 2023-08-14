@@ -28,11 +28,6 @@ function Nav() {
             </NavHashLink>
           </li>
           <li>
-            <NavHashLink smooth to="#cv" onClick={handleClick} className="nav-link">
-              CV
-            </NavHashLink>
-          </li>
-          <li>
             <NavHashLink smooth to="#contact" onClick={handleClick} className="nav-link">
               Kontakt
             </NavHashLink>

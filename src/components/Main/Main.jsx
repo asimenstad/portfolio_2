@@ -11,7 +11,6 @@ function Main() {
       <Intro />
       <About />
       <Projects />
-      <Cv />
       <Contact />
       <ScrollToTop />
     </main>
